@@ -330,7 +330,7 @@ ul li:hover ul li{
     margin-left: 25px;
     width: 200px;
     height: 230px;
-    background-color: grey;
+    /* background-color: grey; */
     box-sizing: border-box;
     display: inline-block;
 }
@@ -345,4 +345,17 @@ ul li:hover ul li{
 }
 .footer_text{
     margin-left: 550px;
+}
+.footer .box .app{
+    margin-left: 25px;
+    margin-top: -15px;
+    width: 150px;
+    height: 150px;
+}
+.footer .box .icon{
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 180px;
+    width: 40px;
+    height: 40px;
 }
