@@ -151,6 +151,34 @@ ul li:hover ul li{
     margin-left: -300vw;
 }
 /* navigation auto */
-.navigation_manual{
-    
+.navigation_auto{
+    position: absolute;
+    width: 800px;
+    margin-left: 330px;
+    margin-top: 640px;
+    display: flex;
+    justify-content: center;
+
+}
+.navigation_auto div{
+    border: rgba(255, 255, 255, 0.671) 2px solid;
+    padding: 10px;
+    border-radius: 100px 100px 100px 100px ;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation_auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked~ .navigation_auto .auto_btn1 {
+    background-color: #EF3C5F
+}
+#radio2:checked~ .navigation_auto .auto_btn2 {
+    background-color: #EF3C5F
+}
+#radio3:checked~ .navigation_auto .auto_btn3 {
+    background-color: #EF3C5F
+}
+#radio4:checked~ .navigation_auto .auto_btn4 {
+    background-color: #EF3C5F
 }

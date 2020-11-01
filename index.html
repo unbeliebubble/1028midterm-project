@@ -8,6 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
     </head>
     <body>
         <div class="header">
@@ -82,6 +83,16 @@
                     <label for="radio3" class="manual_btn"></label>
                     <label for="radio4" class="manual_btn"></label>
                 </div>
+                <script type="text/javascript">
+                    var counter =1;
+                    setInterval(function(){
+                        document.getElementById('radio' + counter).checked = true;
+                        counter ++;
+                        if (counter >4 ) {
+                            counter = 1;
+                        }
+                    }, 4500);
+                </script>
             </div>
         </div>
         
