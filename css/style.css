@@ -201,22 +201,75 @@ ul li:hover ul li{
     height: 108px;
 }
 
-.newproduct{
+.new_product{
     width: 1280px;
     height: 650px;
     /* background-color:grey; */
-    margin:70px auto 0;
+    margin-left: 120px;
     margin-top: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.newproduct .box{
+.new_product .box{
     position: relative;
     width: 300px;
     height: 300px;
     background-color:#EF3C5F;
     margin: 10px;
     box-sizing: border-box;
-    display: inline;
+    display: inline-block;
+}
+.new_product .box .img_box{
+    position: relative;
+    overflow: hidden;
+}
+.new_product .box .img_box img{
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+.new_product .box:hover .img_box img{
+    transform: scale(1.2);
+}
+.new_product .box .detail{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background:white;
+    opacity: .8;
+    transform: scaleY(0);
+    transition: transform .5s;
+     
+}
+.new_product .box:hover .detail{
+    transform: scaleY(1);
+}
+.new_product .box .detail  .content{
+   position: absolute;
+   margin-top: 80px;
+   margin-left: 5px;
+   padding: 15px;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.new_product .box .detail .content h3{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color:rgb(58, 15, 15);
+}
+
+.new_product .box .detail .content h4{
+    margin: 0 ;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 14px;
+
 }
