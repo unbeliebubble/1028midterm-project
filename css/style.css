@@ -1,6 +1,6 @@
 body{
     width: 100vw;
-    height: 2840px;
+    height: 2760px;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -99,6 +99,7 @@ ul li:hover ul li{
   }
 
 .slider{
+    margin-top: 20px;
     width: 100vw;
     height: 675px;
     overflow: hidden;
@@ -312,4 +313,36 @@ ul li:hover ul li{
     filter: blur(0px);
     transform: scale(1.1);
    
+}
+
+.footer{
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.footer .box{
+    position: relative;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 200px;
+    height: 230px;
+    background-color: grey;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.footer .box h3{
+    margin-left: 10px;
+    font-size: 24px;
+}
+.footer .box ul li a{
+    margin-bottom: 3px;
+    /* background-color: white; */
+    text-align: left;
+}
+.footer_text{
+    margin-left: 550px;
 }
