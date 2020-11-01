@@ -4,11 +4,13 @@ body{
    
 }
 
+
 .nav{
     position: absolute;
     padding: 0;
     margin-left: 380px;
-    margin-top: 106px;
+    margin-top: 115px;
+   
 }
 ul{
     margin: 0;
@@ -29,8 +31,6 @@ ul li a{
     background: white;
     opacity: .8;
 }
-
-
 ul li ul li{
     display: none;
 }
@@ -47,7 +47,6 @@ ul li:hover ul li{
     height:60px;
     
   }
-  
   .search_bar{
       position: absolute;
       width: 158px;
@@ -76,4 +75,19 @@ ul li:hover ul li{
     width: 300px;
     height: 88px;
     padding: 0;
+  }
+
+  .header_icon{
+    position: absolute;
+    margin-left: 1290px;
+    margin-top: -45px;
+
+  }
+  .login{
+    height: 35px;
+    width: 35px;
+  }
+  .cart{
+      height: 35px;
+      width: 35px;
   }
