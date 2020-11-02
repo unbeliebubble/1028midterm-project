@@ -295,7 +295,7 @@ ul li:hover ul li{
     position: relative;
     width: 360px;
     height: 360px;
-    /* background-color:#EF3C5F; */
+    /* background-color:#413b3c; */
     margin: 20px;
     margin-left: 75px;
     box-sizing: border-box;
@@ -304,9 +304,11 @@ ul li:hover ul li{
 .bottom_img .box img{
     width: 360px;
     height: 360px;
+    
 }
 .bottom_img:hover .box img{
-    filter: blur(15px);
+    
+    filter: blur(15px) brightness(.8);
     transform: scale(0.9);
 }
 .bottom_img .box:hover img{
