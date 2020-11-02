@@ -99,17 +99,14 @@ ul li:hover ul li{
   }
 
 
-.footer{
-    
-    margin-top: 2560px;
+  .footer{
     width: 100vw;
     height: 350px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;  
 }
-
-.footer .box{
+  .footer .box{
     position: relative;
     margin: 10px;
     margin-top: 30px;
@@ -146,20 +143,90 @@ ul li:hover ul li{
     height: 40px;
 }
 
-.top_img{
-    position:relative;
+.liner_img{
+    position: relative;
+    padding: 0;
     width: 100vw;
-    height: 880px;
-    overflow: hidden;
-    margin-top: 120px;
-    z-index:-1
+    margin-top: 28px;
+    margin-left: 155px;
+    
 }
-.top_img img{
+.liner_img img{
     position: absolute;
-    display: block;
-    top: 50%;
-    left: 50%;
-    min-width: 85%;
-    min-height: 85%;
-    transform:translate(-50%,-50%);
+    width: 1146px;
+    height: 108px;
+}
+
+.top_img{
+    width: 100vw;
+    height: 800px;
+    margin-top: 120px;
+    margin-left: 75px;
+    overflow: hidden
+}
+.top_img img{ 
+    height: 880px;
+}
+
+
+.lookbook{
+    width: 100vw;
+    height: 1700px;
+    /* background: grey; */
+    padding: 0;
+    margin-top: 150px;
+}
+.layer{
+    height: calc(100%/3);
+    background-color:grey;
+    margin: 5px;
+}
+.layer1 .section1{
+    float: left;
+    margin: 15px;
+    margin-left: 130px;
+    width: 763px;
+    height: 540px;
+    background-color:whitesmoke;
+}
+
+.layer1 .section2{
+    float: right;
+    margin: 15px;
+    margin-right: 130px;
+    width: 376px;
+    height: 540px;
+    background-color:whitesmoke;
+}
+.layer2 .section1{
+    float: left;
+    margin: 15px;
+    margin-left: 130px;
+    width: 763px;
+    height: 540px;
+    background-color:whitesmoke;
+}
+.layer2 .section2{
+    float: right;
+    margin: 15px;
+    margin-right: 130px;
+    width: 376px;
+    height: 540px;
+    background-color:whitesmoke;
+}
+.layer3 .section1{
+    float: left;
+    margin: 15px;
+    margin-left: 130px;
+    width: 763px;
+    height: 540px;
+    background-color:whitesmoke;
+}
+.layer3 .section2{
+    float: right;
+    margin: 15px;
+    margin-right: 130px;
+    width: 376px;
+    height: 540px;
+    background-color:whitesmoke;
 }
