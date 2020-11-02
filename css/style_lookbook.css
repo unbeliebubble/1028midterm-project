@@ -101,6 +101,7 @@ ul li:hover ul li{
 
 .footer{
     
+    margin-top: 2560px;
     width: 100vw;
     height: 350px;
     display: flex;
@@ -143,4 +144,22 @@ ul li:hover ul li{
     margin-top: 180px;
     width: 40px;
     height: 40px;
+}
+
+.top_img{
+    position:relative;
+    width: 100vw;
+    height: 880px;
+    overflow: hidden;
+    margin-top: 120px;
+    z-index:-1
+}
+.top_img img{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    min-width: 85%;
+    min-height: 85%;
+    transform:translate(-50%,-50%);
 }
