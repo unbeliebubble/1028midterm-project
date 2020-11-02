@@ -316,7 +316,7 @@ ul li:hover ul li{
 }
 
 .footer{
-    position: fixed;
+    
     width: 100vw;
     height: 350px;
     display: flex;
