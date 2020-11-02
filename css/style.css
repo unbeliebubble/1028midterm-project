@@ -86,7 +86,7 @@ ul li:hover ul li{
   .header_icon{
     position: absolute;
     margin-left: 1290px;
-    margin-top: -45px;
+    margin-top: 45px;
 
   }
   .login{
@@ -99,7 +99,7 @@ ul li:hover ul li{
   }
 
 .slider{
-    margin-top: 20px;
+    margin-top: 120px;
     width: 100vw;
     height: 675px;
     overflow: hidden;
