@@ -171,62 +171,133 @@ ul li:hover ul li{
 
 .lookbook{
     width: 100vw;
-    height: 1700px;
+    height: 1800px;
     /* background: grey; */
     padding: 0;
     margin-top: 150px;
 }
 .layer{
     height: calc(100%/3);
-    background-color:grey;
+    /* background-color:grey; */
     margin: 5px;
 }
 .layer1 .section1{
+    position: absolute;
     float: left;
     margin: 15px;
     margin-left: 130px;
-    width: 763px;
+    width: 760px;
     height: 540px;
-    background-color:whitesmoke;
+}
+.layer1 .section1 .img1 {
+    margin-top: 10px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.layer1 .section2 .img2  {
+    margin-top: 10px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.layer1 .line1{
+    position: absolute;
+    margin-left: 645px;
+    margin-top: 280px;
+    width: 542px;
+    height: 0px;
+    border: 1px solid #0000006c;
+    transform: rotate(90deg);
 }
 
+.line2{
+    position: absolute;
+    padding: 0;
+    margin-top: -20px;
+    margin-left:100px;
+    width: 1250px;
+    height: 0px;
+    border: 1px solid #0000006c;
+}
 .layer1 .section2{
     float: right;
     margin: 15px;
     margin-right: 130px;
     width: 376px;
     height: 540px;
-    background-color:whitesmoke;
 }
+
 .layer2 .section1{
+    position: absolute;
     float: left;
     margin: 15px;
-    margin-left: 130px;
-    width: 763px;
+    margin-left: 200px;
+    width: 428px;
     height: 540px;
-    background-color:whitesmoke;
+    overflow: hidden;
+    /* background-color:grey; */
 }
+
+.layer2 .section1 .img3 img{
+    margin-top: -10px;
+    margin-left: 20px;
+    width: 408px;
+    height: 563px;
+}
+
 .layer2 .section2{
     float: right;
     margin: 15px;
-    margin-right: 130px;
-    width: 376px;
+    margin-right: 60px;
+    width: 690px;
     height: 540px;
-    background-color:whitesmoke;
+}
+.layer2 .section2 .img4 img{
+    margin-top: -25px;
+    margin-right: 200px;
+    width: 590px;
+    height: 590px;
+}
+.layer2 .line1{
+    position: absolute;
+    margin-left: 382px;
+    margin-top: 285px;
+    width: 542px;
+    height: 0px;
+    border: 1px solid #0000006c;
+    transform: rotate(90deg);
 }
 .layer3 .section1{
     float: left;
     margin: 15px;
-    margin-left: 130px;
-    width: 763px;
+    margin-left: 120px;
+    width: 570px;
     height: 540px;
-    background-color:whitesmoke;
+}
+.layer3 .section1 .img5 img{
+    margin-top: 60px;
+    margin-right: 140px;
+    width: 570px;
+    height: 425px;
 }
 .layer3 .section2{
     float: right;
     margin: 15px;
-    margin-right: 130px;
-    width: 376px;
+    margin-right: 120px;
+    width: 575px;
     height: 540px;
-    background-color:whitesmoke;
+}
+.layer3 .section2 .img6 img{
+    margin-top: 60px;
+    margin-right: 140px;
+    width: 575px;
+    height: 425px;
+}
+.layer3 .line1{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 285px;
+    width: 510px;
+    height: 0px;
+    border: 1px solid #0000006c;
+    transform: rotate(90deg);
 }
