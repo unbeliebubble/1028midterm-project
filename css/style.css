@@ -282,7 +282,7 @@ ul li:hover ul li{
     height: 320px;
 }
 
-.buttom_img{
+.bottom_img{
     width: 100vw;
     height: 400px;
     /* background-color: grey; */
@@ -291,7 +291,7 @@ ul li:hover ul li{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.buttom_img .box{
+.bottom_img .box{
     position: relative;
     width: 360px;
     height: 360px;
@@ -301,15 +301,15 @@ ul li:hover ul li{
     box-sizing: border-box;
     display: inline-block;
 }
-.buttom_img .box img{
+.bottom_img .box img{
     width: 360px;
     height: 360px;
 }
-.buttom_img:hover .box img{
+.bottom_img:hover .box img{
     filter: blur(15px);
     transform: scale(0.9);
 }
-.buttom_img .box:hover img{
+.bottom_img .box:hover img{
     filter: blur(0px);
     transform: scale(1.1);
    
