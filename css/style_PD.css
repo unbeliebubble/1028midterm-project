@@ -29,10 +29,11 @@ ul li {
 
 ul li a{
     text-decoration: none;
-    font-size: 18px;  
+    font-size: 18px; 
+    text-align: center; 
     color: black;
     display: block;
-    background: white;
+    background:white;
     opacity: .8;
   
 }
@@ -48,6 +49,9 @@ ul li:hover ul li{
     border-radius: 10px;
   }
   
+ul li .lk {
+    padding-top:3px;
+}
 
   .search{
     width: 100%;
